@@ -1,0 +1,5 @@
+gedit-plugin-ipython (0.10-ubuntu3) precise; urgency=low
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Sebastiaan Mathot <s.mathot@cogsci.nl>  Sun, 01 Jul 2012 14:01:30 +0200

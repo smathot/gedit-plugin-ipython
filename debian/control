@@ -1,0 +1,18 @@
+Source: gedit-plugin-ipython
+Section: science
+Priority: extra
+Maintainer: Sebastiaan Mathot <s.mathot@cogsci.nl>
+Uploaders: Sebastiaan Mathot <s.mathot@cogsci.nl>
+Build-Depends: debhelper (>= 7.0.50~), python-support, python, ipython, gedit
+XS-Python-Version: >= 2.6
+Standards-Version: 3.9.1
+Homepage: http://www.cogsci.nl/
+
+Package: gedit-plugin-ipython
+Architecture: all
+XB-Python-Version: ${python:Versions}
+Depends: ${misc:Depends}, ${python:Depends}, ipython, gedit
+Recommends: 
+Description: This plugin allows you to execute selected code directly from Gedit
+ in an IPython console.
+
