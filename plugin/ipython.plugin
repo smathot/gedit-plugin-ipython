@@ -1,0 +1,9 @@
+[Plugin]
+Loader=python
+Module=ipython
+IAge=3
+Name=IPython
+Description=Run selected text in IPython
+Authors=Sebastiaan Mathôt <s.mathot@cogsci.nl>
+Copyright=Copyright © 2012 Sebastiaan Mathôt <s.mathot@cogsci.nl>
+Website=http://www.cogsci.nl

@@ -1,0 +1,25 @@
+gedit-plugin-ipython
+Copyright 2012 Sebastiaan Mathot <s.mathot@cogsci.nl>
+<http://www.cogsci.nl/>
+
+INSTALLATION
+============
+Download and extract the archive, and run the following command as root to
+install the plugin:
+
+> python setup.py install
+
+Next, open Gedit and activate the plugin through Edit -> Preferences -> Plugins.
+The plugin is called 'IPython'
+
+USAGE
+=====
+Open a terminal and start an IPython console with the following command:
+
+> ipython-listener
+
+This is a simple wrapper around a regular IPython console that listens for
+incoming signals from the Gedit plugin. Next you can run selected text in
+the IPython console through Tools -> Run in IPython or by pressing Control+R.
+If no text is selected, the entire document will be executed.
+
