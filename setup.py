@@ -22,7 +22,6 @@ along with gedit-plugin-ipython.  If not, see <http://www.gnu.org/licenses/>.
 """
 
 import glob
-from libqnotero.qnotero import Qnotero
 from distutils.core import setup
 
 setup(name='gedit-plugin-ipython',
