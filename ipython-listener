@@ -41,6 +41,7 @@ class IPythonListener(Thread):
 				
 		Thread.__init__(self)			
 		self.port = 50007
+		self.bufSize = 65536
 		self.console = console		
 		self.alive = True
 		self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -59,7 +60,7 @@ class IPythonListener(Thread):
 
 		while self.alive:				
 			try:
-				s, comm_addr = self.sock.recvfrom(128)
+				s, comm_addr = self.sock.recvfrom(self.bufSize)
 				print s
 				print self.console.prompt_manager.render('out')
 				self.console.ex(s)

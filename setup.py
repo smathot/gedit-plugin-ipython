@@ -26,7 +26,7 @@ from distutils.core import setup
 
 setup(name='gedit-plugin-ipython',
 
-	version = '0.10',
+	version = '0.11',
 	description = 'Gedit plugin to run selected text in IPython',
 	author = 'Sebastiaan Mathot',
 	author_email = 's.mathot@cogsci.nl',

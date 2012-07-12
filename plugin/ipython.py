@@ -93,6 +93,7 @@ class IPythonPlugin(GObject.Object, Gedit.WindowActivatable):
 			start, end = doc.get_selection_bounds()			
 		else:
 			start, end = doc.get_bounds()
-		code = start.get_text(end)
-		self.socket.sendto(code, (self.listener_host, self.listener_port) )
+		code = start.get_text(end)		
+
+		self.socket.sendto(code, (self.listener_host, self.listener_port) )		
 		
