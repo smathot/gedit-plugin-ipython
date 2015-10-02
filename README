@@ -1,3 +1,8 @@
+Important note: This repository is no longer maintained. For updates, please
+visit: <https://gitlab.com/mcepl/gedit-plugin-ipython>
+
+***
+
 gedit-plugin-ipython
 Copyright 2012 Sebastiaan Mathot <s.mathot@cogsci.nl>
 <http://www.cogsci.nl/>
@@ -22,4 +27,3 @@ This is a simple wrapper around a regular IPython console that listens for
 incoming signals from the Gedit plugin. Next you can run selected text in
 the IPython console through Tools -> Run in IPython or by pressing Control+R.
 If no text is selected, the entire document will be executed.
-
